@@ -63,6 +63,9 @@ body{
     margin-top: 16px;
     line-height: 58px;
 }
+.btn:active{
+    transform: scale(0.95);
+}
 .download-primary{
     background-color: var(--primary-blue);
     width: 193px;
@@ -71,16 +74,16 @@ body{
 .download-primary span{
     color: var(--secondary-blue);
 }
-.download-primary :hover{
-    background-color: var(--secondary-blue);
+.download-primary:hover{
+    background-color: #71C0D4;
 }
 .what{
     background-color: var(--primary-purple);
     width: 139px;
     text-decoration: none;
 }
-.what :hover{
-    background-color: var(--secondary-purple);
+.what:hover{
+    background-color: #B18BDD;
 }
 .section-one{
     margin: 25px;
@@ -138,9 +141,11 @@ body{
     background-color: var(--primary-purple);
     width: 193px;
 }
-.download-secondary span{
-    color: var(--secondary-purple)
+.download-secondary:hover{
+    background-color: #B18BDD;
+    cursor:pointer;
 }
+
 @media screen and (min-width:768px) {
     .header{
         background-image: url(./assets/tablet/image-hero.png);
