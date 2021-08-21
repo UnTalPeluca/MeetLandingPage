@@ -25,7 +25,7 @@ body{
     margin: 48px 0px;
 }
 .header{
-    background-image: url(assets/tablet/image-hero.png);
+    background-image: url(./assets/tablet/image-hero.png);
     background-size: 110%;
     background-position-x: -20px;
     background-repeat: no-repeat;
